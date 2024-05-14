@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zia's Personal Webpage</title>
+    <style>
+        body {
+            background-color: #f0e6ff;
+            font-family: Arial, sans-serif;
+            color: #4b0082;
+            text-align: center;
+        }
+        header {
+            background-color: #800080;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .content {
+            margin: 20px;
+        }
+        .hobbies, .soccer-balls {
+            margin: 20px 0;
+        }
+        .soccer-balls img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #800080;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Zia's Personal Webpage</h1>
+    </header>
+    <div class="content">
+        <section class="bio">
+            <h2>About Me</h2>
+            <p>Hi! My name is Zia and I'm a 5th grader. I love playing soccer and enjoy spending time outdoors with my friends. I also like learning new things at school, especially in subjects like science and math.</p>
+        </section>
+        <section class="hobbies">
+            <h2>My Hobbies</h2>
+            <p>One of my favorite hobbies is playing soccer. I enjoy the excitement of the game and working together with my team to score goals. I also like collecting different soccer balls.</p>
+        </section>
+        <section class="soccer-balls">
+            <h2>My Soccer Ball Collection</h2>
+            <img src="https://via.placeholder.com/100" alt="Soccer Ball 1">
+            <img src="https://via.placeholder.com/100" alt="Soccer Ball 2">
+            <img src="https://via.placeholder.com/100" alt="Soccer Ball 3">
+        </section>
+    </div>
+    <footer>
+        <p>Thanks for visiting my webpage!</p>
+    </footer>
+</body>
+</html>
